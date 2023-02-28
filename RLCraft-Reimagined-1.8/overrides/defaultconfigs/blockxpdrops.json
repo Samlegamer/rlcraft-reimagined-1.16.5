@@ -1,0 +1,7 @@
+[
+  {
+    "blocks": ["minecraft:spawner", "ba_bt:bt_land_spawner", "iceandfire:dread_spawner"],
+    "amount": 25,
+    "chance": 1.0
+  }
+]

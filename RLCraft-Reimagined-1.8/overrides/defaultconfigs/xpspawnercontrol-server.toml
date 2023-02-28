@@ -1,0 +1,8 @@
+
+#Spawner XP Config server side configuration
+[server]
+	#Whether the entity list is a blacklist (true) or a whitelist (false) of removing experience drops
+	isBlacklist = true
+	#A list of all of the entity registry names which this mod will affect. ex. ["minecraft:skeleton", "minecraft:zombie"]
+	entityList = []
+

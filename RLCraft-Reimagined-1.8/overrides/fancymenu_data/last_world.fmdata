@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Samle/curseforge/minecraft/Instances/RLCraft - Reimagined (not official)/saves/New World (2)
+}
+
