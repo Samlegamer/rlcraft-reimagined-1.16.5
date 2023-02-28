@@ -1,0 +1,122 @@
+{
+  "name": "behemophet",
+  "creatureType": "demon",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBehemophet",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelBehemophet",
+  "loadDefault": false,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "land_deadly",
+      "portal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      "minecraft:the_nether"
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": false,
+    "biomeIds": [
+      "minecraft:nether_wastes",
+      "betternether:bone_reef",
+      "betternether:crimson_glowing_woods",
+      "betternether:crimson_pinewood",
+      "betternether:flooded_deltas",
+      "betternether:gravel_desert",
+      "betternether:magma_land",
+      "betternether:nether_grasslands",
+      "betternether:nether_jungle",
+      "betternether:nether_mushroom_forest",
+      "betternether:nether_mushroom_forest_edge",
+      "betternether:nether_swampland",
+      "betternether:nether_swampland_terraces",
+      "betternether:old_fungiwoods",
+      "betternether:old_swampland",
+      "betternether:old_warped_woods",
+      "betternether:poor_nether_grasslands",
+      "betternether:soul_plain",
+      "betternether:sulfuric_bone_reef",
+      "betternether:upside_down_forest",
+      "betternether:wart_forest",
+      "betternether:wart_forest_edge",
+      "minecraft:soul_sand_valley"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.0,
+  "height": 3.5,
+  "experience": 10,
+  "health": 100,
+  "defense": 3,
+  "armor": 0,
+  "speed": 28,
+  "damage": 2,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.75,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 5,
+  "eggBackColor": "#FF2222",
+  "eggForeColor": "#FF9900",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "nether",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 4,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "lycanitesmobs:hellfireballcharge",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}
