@@ -1,0 +1,124 @@
+{
+  "name": "vorach",
+  "creatureType": "demon",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVorach",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelVorach",
+  "loadDefault": false,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "land_deadly",
+      "portal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      "minecraft:the_nether"
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": false,
+    "biomeIds": [
+      "minecraft:soul_sand_valley",
+      "betternether:bone_reef",
+      "betternether:crimson_glowing_woods",
+      "betternether:crimson_pinewood",
+      "betternether:flooded_deltas",
+      "betternether:gravel_desert",
+      "betternether:magma_land",
+      "betternether:nether_grasslands",
+      "betternether:nether_jungle",
+      "betternether:nether_mushroom_forest",
+      "betternether:nether_mushroom_forest_edge",
+      "betternether:nether_swampland",
+      "betternether:nether_swampland_terraces",
+      "betternether:old_fungiwoods",
+      "betternether:old_swampland",
+      "betternether:old_warped_woods",
+      "betternether:poor_nether_grasslands",
+      "betternether:soul_plain",
+      "betternether:sulfuric_bone_reef",
+      "betternether:upside_down_forest",
+      "betternether:wart_forest",
+      "betternether:wart_forest_edge",
+      "minecraft:basalt_deltas"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.5,
+  "height": 3.5,
+  "experience": 10,
+  "health": 40,
+  "defense": 2,
+  "armor": 0,
+  "speed": 20,
+  "damage": 3,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.25,
+  "bagSize": 5,
+  "eggBackColor": "#4E5567",
+  "eggForeColor": "#49005C",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    "fae"
+  ],
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 6,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:soul_sand",
+      "minAmount": 3,
+      "maxAmount": 5,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:hellfireballcharge",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}
