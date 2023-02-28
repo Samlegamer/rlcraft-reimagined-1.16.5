@@ -1,0 +1,83 @@
+{
+  "name": "temple",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 8,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "groupLimitRange": 64,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 1,
+      "tickRate": 1200
+    }
+  ],
+  "locations": [
+    {
+      "type": "structure",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        32,
+        255,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true,
+      "structureIds": [
+        "minecraft:stronghold",
+        "repurposed_structures:stronghold_nether",
+        "repurposed_structures:stronghold_end"
+      ]
+    },
+    {
+      "type": "structure",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        16,
+        255,
+        16
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true,
+      "structureIds": [
+        "minecraft:desert_pyramid",
+        "minecraft:jungle_pyramid",
+        "repurposed_structures:pyramid_badlands",
+        "repurposed_structures:pyramid_snowy",
+        "repurposed_structures:pyramid_icy",
+        "repurposed_structures:pyramid_jungle",
+        "repurposed_structures:pyramid_mushroom",
+        "repurposed_structures:pyramid_ocean",
+        "repurposed_structures:pyramid_giant_tree_taiga",
+        "repurposed_structures:pyramid_flower_forest",
+        "repurposed_structures:pyramid_nether",
+        "repurposed_structures:pyramid_end",
+        "repurposed_structures:temple_nether_wasteland",
+        "repurposed_structures:temple_nether_soul",
+        "repurposed_structures:temple_nether_basalt",
+        "repurposed_structures:temple_nether_crimson",
+        "repurposed_structures:temple_nether_warped"
+      ]
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:sylph",
+      "weight": 8,
+      "home": 32
+    }
+  ]
+}
