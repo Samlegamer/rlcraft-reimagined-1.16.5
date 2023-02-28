@@ -1,0 +1,225 @@
+{
+  "name": "demonictemple",
+  "loadDefault": true,
+  "sectorCountMin": 10,
+  "sectorCountMax": 20,
+  "corridorToCorridorChance": 0.1,
+  "roomToRoomChance": 0.1,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        "minecraft:the_nether"
+      ],
+      "dimensionListType": "whitelist",
+      "biomeIds": [
+        "minecraft:nether_wastes",
+        "minecraft:soul_sand_valley",
+        "minecraft:crimson_forest"
+      ],
+      "biomeIdListType": "whitelist"
+    }
+  ],
+  "themes": [
+    "demonic"
+  ],
+  "entrances": [
+    "entrancebasic"
+  ],
+  "rooms": [
+    "roombasic",
+    "roombasicloot",
+    "roombasicmob",
+    "roombasicpit",
+    "roomdiamondpit"
+  ],
+  "corridors": [
+    "corridorbasic",
+    "corridorbasicdark",
+    "corridorbasicloot",
+    "corridorbasicmob"
+  ],
+  "stairs": [
+    "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
+  ],
+  "bossRooms": [
+    "roombasicboss"
+  ],
+  "finishes": [
+    "roombasicfinish"
+  ],
+  "lootTables": [
+    {
+      "id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "id": "minecraft:chests/village/village_armorer",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/village/village_toolsmith",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/village/village_weaponsmith",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/village/village_cartographer",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/village/village_fletcher",
+      "level": 2
+    },
+    {
+      "id": "minecraft:chests/nether_bridge",
+      "level": 3
+    },
+    {
+      "id": "minecraft:chests/woodland_mansion",
+      "level": 4
+    },
+    {
+      "id": "minecraft:chests/stronghold_corridor",
+      "level": 5
+    },
+    {
+      "id": "minecraft:chests/stronghold_library",
+      "level": 5
+    },
+    {
+      "id": "minecraft:chests/stronghold_crossing",
+      "level": 6
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:belphegor",
+      "weight": 14
+    },
+    {
+      "mobId": "lycanitesmobs:wraith",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:behemophet",
+      "weight": 4,
+      "dungeonLevelMin": 1
+    },
+    {
+      "mobId": "lycanitesmobs:kathoga",
+      "weight": 4,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:malwrath",
+      "weight": 1,
+      "dungeonLevelMin": 3
+    },
+    {
+      "mobId": "lycanitesmobs:behemophet",
+      "weight": 1,
+      "variant": 0,
+      "mobNameTag": "Baron of Hell",
+      "mobSizeScale": 2,
+      "naturalDespawn": "false",
+      "mobLevel": 30,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 0,
+      "dungeonLevelMax": 2,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:equipmentpart_behemophethand",
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_demon",
+          "amountMultiplier": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:kathoga",
+      "weight": 1,
+      "variant": 2,
+      "mobNameTag": "Gluttony",
+      "mobSizeScale": 2,
+      "naturalDespawn": "false",
+      "mobLevel": 50,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_demon",
+          "amountMultiplier": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:malwrath",
+      "weight": 1,
+      "variant": 3,
+      "mobSizeScale": 1.25,
+      "mobNameTag": "Pain Elemental",
+      "naturalDespawn": "false",
+      "mobLevel": 10,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:equipmentpart_malwratheye",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_demon",
+          "amountMultiplier": false
+        }
+      ]
+    },
+    {
+      "mobId": "lycanitesmobs:apollyon",
+      "weight": 1,
+      "variant": 3,
+      "mobSizeScale": 1.25,
+      "mobNameTag": "Azazel",
+      "naturalDespawn": "false",
+      "mobLevel": 10,
+      "spawnAsBoss": true,
+      "dungeonLevelMin": 5,
+      "dungeonBoss": true,
+      "mobDrops": [
+        {
+          "item": "lycanitesmobs:equipmentpart_apollyonclaw",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_demon",
+          "amountMultiplier": false
+        }
+      ]
+    }
+  ]
+}
