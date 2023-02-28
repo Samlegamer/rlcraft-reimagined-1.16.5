@@ -1,0 +1,32 @@
+{
+  "name": "mudshot",
+  "loadDefault": true,
+  "width": 1.25,
+  "height": 1.25,
+  "scale": 2.5,
+  "damage": 4,
+  "pierce": 1,
+  "knockbackChance": 0.5,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.8,
+  "weight": 0.25,
+  "lifetime": 100,
+  "elements": [
+    "water",
+    "earth"
+  ],
+  "behaviours": [],
+  "waterproof": true,
+  "lavaproof": false,
+  "cutGrass": false,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": false,
+  "rollSpeed": 4,
+  "particleCount": 5,
+  "particleId": "minecraft:dust_falling_dirt",
+  "waterParticleId": "minecraft:bubble",
+  "animationFrames": 8
+}

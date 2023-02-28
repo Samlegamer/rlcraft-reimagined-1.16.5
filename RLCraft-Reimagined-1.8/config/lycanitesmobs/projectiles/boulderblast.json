@@ -1,0 +1,32 @@
+{
+  "name": "boulderblast",
+  "loadDefault": true,
+  "width": 1.25,
+  "height": 1.25,
+  "scale": 2.5,
+  "damage": 8,
+  "pierce": 2,
+  "knockbackChance": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 1,
+  "velocity": 0.6,
+  "weight": 1,
+  "lifetime": 100,
+  "elements": [
+    "earth",
+    "quake"
+  ],
+  "behaviours": [],
+  "waterproof": true,
+  "lavaproof": true,
+  "cutGrass": true,
+  "impactSound": false,
+  "ripper": false,
+  "pierceBlocks": false,
+  "glow": false,
+  "rollSpeed": 4,
+  "particleCount": 5,
+  "particleId": "minecraft:smoke",
+  "waterParticleId": "minecraft:bubble",
+  "animationFrames": 4
+}
