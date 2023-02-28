@@ -1,0 +1,15 @@
+
+[minecraft]
+	#Replace vanilla entity nearest attack tasks for better performance
+	nearestAttackTaskReplacement = true
+	#Replace vanilla entity avoid tasks for better performance
+	avoidTaskReplacement = true
+	#Master switch for this section
+	ENABLED = true
+
+[general]
+	#Master switch, enables all features
+	"Reducer Enabled" = true
+	#Reads lessCollisions json to determine entity radius, increases performance with mods like LycanitesMobs
+	"Custom Collision Radius" = true
+
