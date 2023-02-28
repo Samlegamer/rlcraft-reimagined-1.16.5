@@ -1,0 +1,9 @@
+
+#Server configuration settings
+[server]
+	#No comment
+	isOffhandSwing-ableByDefault = true
+	#No comment
+	#Range: 0.0 ~ 1.0
+	attackCooldownSetAfterSwing = 0.5
+

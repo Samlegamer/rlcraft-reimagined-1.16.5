@@ -1,0 +1,15 @@
+
+#General Settings
+[general]
+	#Set debug mode, false by default
+	debug = false
+
+#Multiplier Settings
+[multipliers]
+	#Multiplier for xp dropped by mined ore
+	#Range: 0.1 ~ 100.0
+	ore_multiplier = 3.0
+	#Multiplier for xp dropped by mobs
+	#Range: 0.1 ~ 100.0
+	mob_multiplier = 3.0
+
