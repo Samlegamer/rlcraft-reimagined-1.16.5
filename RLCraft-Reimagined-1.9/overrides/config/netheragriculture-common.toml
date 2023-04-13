@@ -1,0 +1,29 @@
+
+#World generation settings
+[world]
+	#Is tall warped roots generation enabled. [false = disable generation]
+	TallWarpedRoots = true
+	#Warped flower generation weight. [0 = disable generation]
+	#Range: 0 ~ 1000
+	WarpedRoots = 21
+	#Is crimson berry bush generation enabled. [false = disable generation]
+	CrimsonBerryBush = true
+	#Is nether roots generation enabled. [false = disable generation]
+	NetherRoots = true
+	#Is oats generation enabled. [false = disable generation]
+	Oats = true
+	#Is lotunes generation enabled. [false = disable generation]
+	Lotunes = true
+	#Is tall crimson roots generation enabled. [false = disable generation]
+	TallCrimsonRoots = true
+	#Glowing fungus generation weight in crimson forest. [0 = disable generation]
+	#Range: 0 ~ 1000
+	GlowingFungusCF = 3
+	#Is gordo generation enabled. [false = disable generation]
+	Gordo = true
+	#Glowing fungus generation weight in warped forest. [0 = disable generation]
+	#Range: 0 ~ 1000
+	GlowingFungusWF = 3
+	#Is warped berry bush generation enabled. [false = disable generation]
+	WarpedBerryBush = true
+

@@ -1,0 +1,285 @@
+
+[Heavy]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+["Sweeping Edge"]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Cat Vision"]
+	# The maximum enchantment level
+	#Range: 1 ~ 1
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+[Flight]
+	# The maximum enchantment level
+	#Range: 1 ~ 3
+	maxLevel = 3
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Light Blade"]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 3
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+["Loot Bonus Enchantments"]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Critical]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Fuel Efficient"]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+["Enchanter Villager"]
+	# Whether the enchanter villager is enabled
+	isEnabled = true
+
+[Impaling]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Freezing]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 3
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+[Punch]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Step Assist"]
+	# The maximum enchantment level
+	#Range: 1 ~ 3
+	maxLevel = 3
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Double Break"]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Fast Smelt"]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+[Efficiency]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Attack Reach"]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Camouflage]
+	# The maximum enchantment level
+	#Range: 1 ~ 1
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+[Reinforcement]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+[Unbreaking]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Block Reach"]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 3
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Extra Experience"]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+[Replanting]
+	# The maximum enchantment level
+	#Range: 1 ~ 1
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+["Fast Hopper"]
+	# The maximum enchantment level
+	#Range: 1 ~ 1
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+[Riptide]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+["Damage Enchantments"]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+["Cavernous Storage"]
+	# The maximum enchantment level
+	#Range: 1 ~ 1
+	maxLevel = 1
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Fire Aspect"]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Protection Enchantments"]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Quick Charge"]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Knockback]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Lure]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+[Thorns]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Temper]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+["Heavy Blade"]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = true
+
+["Health Boost"]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Loyalty]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Respiration]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+["Soul Speed"]
+	# The maximum enchantment level
+	#Range: 1 ~ 5
+	maxLevel = 5
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Power]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+
+[Piercing]
+	# The maximum enchantment level
+	#Range: 1 ~ 10
+	maxLevel = 10
+	# Whether the mod changes these enchantments
+	isEnabled = false
+

@@ -1,0 +1,14 @@
+#Chance to generate a random lock on every new chest during world generation. Set to 0 to disable
+#Range: 0.0 ~ 1.0
+"Generation Chance" = 0.1
+#Chance to randomly enchant a generated lock during world generation. Set to 0 to disable
+#Range: 0.0 ~ 1.0
+"Generation Enchant Chance" = 0.2
+#Items that can be generated as locks (must be instance of LockItem in code!)
+"Generated Locks" = ["locks:wood_lock", "locks:iron_lock", "locks:steel_lock", "locks:gold_lock", "locks:diamond_lock"]
+#WARNING: THE AMOUNT OF NUMBERS SHOULD BE EQUAL TO THE AMOUNT OF GENERATED LOCK ITEMS!!!
+#The relative probability that the corresponding lock item will be generated on a chest. Higher number = higher chance to generate
+"Generated Lock Chances" = [3, 3, 2, 2, 1]
+#Randomize lock IDs and combinations when loading them from a structure file. Randomization works just like during world generation
+"Randomize Loaded Locks" = false
+
