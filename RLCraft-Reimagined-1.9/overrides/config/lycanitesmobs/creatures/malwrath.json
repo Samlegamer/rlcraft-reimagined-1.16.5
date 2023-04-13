@@ -1,0 +1,159 @@
+{
+  "name": "malwrath",
+  "creatureType": "demon",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityMalwrath",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelMalwrath",
+  "loadDefault": false,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "sky_deadly",
+      "portal"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      "minecraft:the_nether"
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": false,
+    "biomeIds": [
+      "minecraft:nether_wastes",
+      "betternether:bone_reef",
+      "betternether:crimson_glowing_woods",
+      "betternether:crimson_pinewood",
+      "betternether:flooded_deltas",
+      "betternether:gravel_desert",
+      "betternether:magma_land",
+      "betternether:nether_grasslands",
+      "betternether:nether_jungle",
+      "betternether:nether_mushroom_forest",
+      "betternether:nether_mushroom_forest_edge",
+      "betternether:nether_swampland",
+      "betternether:nether_swampland_terraces",
+      "betternether:old_fungiwoods",
+      "betternether:old_swampland",
+      "betternether:old_warped_woods",
+      "betternether:poor_nether_grasslands",
+      "betternether:soul_plain",
+      "betternether:sulfuric_bone_reef",
+      "betternether:upside_down_forest",
+      "betternether:wart_forest",
+      "betternether:wart_forest_edge",
+      "minecraft:basalt_deltas"
+    ],
+    "spawnWeight": 4,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 2.5,
+  "height": 2.5,
+  "experience": 10,
+  "health": 20,
+  "defense": 1,
+  "armor": 0,
+  "speed": 24,
+  "damage": 3,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 32,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#FF0000",
+  "eggForeColor": "#000099",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        },
+        {
+          "index": 3,
+          "name": "ebon",
+          "scale": 2,
+          "type": "rare"
+        }
+      ]
+    }
+  ],
+  "element": "nether",
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 2,
+  "dungeonLevel": 3,
+  "drops": [
+    {
+      "item": "minecraft:ghast_tear",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 0.5
+    },
+    {
+      "item": "lycanitesmobs:demonicsparkcharge",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:demonicblastcharge",
+      "minAmount": 3,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_demon",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 1,
+      "variant": 3
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1,
+  "flags": [
+    {
+      "name": "griefing",
+      "value": true
+    }
+  ]
+}
