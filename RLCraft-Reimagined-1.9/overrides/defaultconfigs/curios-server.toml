@@ -1,0 +1,7 @@
+#List of curio slot type settings
+curiosSettings = []
+
+[[curiosSettings]]
+  identifier = "curio"
+  size = 2
+  visible = false

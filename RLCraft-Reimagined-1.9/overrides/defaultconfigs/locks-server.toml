@@ -1,0 +1,12 @@
+#Maximum amount of blocks that can be locked at once
+#Range: > 1
+"Max Lockable Volume" = 5
+#Blocks that can be locked. Each entry is the mod domain followed by the block's registry name. Can include regular expressions
+"Lockable Blocks" = [".*chest", ".*barrel", ".*hopper", ".*door", ".*trapdoor", ".*fence_gate", ".*shulker_box"]
+#Open locks can be removed with an empty hand while sneaking
+"Allow Removing Locks" = true
+#Locked blocks cannot be destroyed in survival mode
+"Protect Lockables" = true
+#Lock blocks with just one click! It's magic! (Will probably fail spectacularly with custom doors, custom double chests, etc)
+"Easy Lock" = true
+
