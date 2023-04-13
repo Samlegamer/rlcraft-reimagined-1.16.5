@@ -1,0 +1,20 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.WorldLoadProgressScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/customguis/summer_loading.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
