@@ -1,0 +1,46 @@
+{
+  "itemName": "frostweaverleg",
+  "loadDefault": true,
+  "slotType": "blade",
+  "dropMobId": "lycanitesmobs:frostweaver",
+  "dropChance": 0.05,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "frost"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "frostweb",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 30,
+      "count": 1,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "frostweb",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 20,
+      "count": 1,
+      "bonusDamage": 1
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "frostweb",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "spread",
+      "cooldown": 40,
+      "count": 5,
+      "spreadX": 10,
+      "spreadY": 1
+    }
+  ]
+}

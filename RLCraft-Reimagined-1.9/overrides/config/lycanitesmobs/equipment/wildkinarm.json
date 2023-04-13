@@ -1,0 +1,44 @@
+{
+  "itemName": "wildkinarm",
+  "loadDefault": true,
+  "slotType": "head",
+  "dropMobId": "lycanitesmobs:wildkin",
+  "dropChance": 0.2,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "earth"
+  ],
+  "features": [
+    {
+      "featureType": "slot",
+      "slotType": "blade"
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 1,
+      "levelMax": 1,
+      "effectType": "minecraft:resistance",
+      "effectTarget": "self",
+      "effectDuration": 10,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 2,
+      "levelMax": 2,
+      "effectType": "minecraft:resistance",
+      "effectTarget": "self",
+      "effectDuration": 20,
+      "effectStrength": 1
+    },
+    {
+      "featureType": "effect",
+      "levelMin": 3,
+      "effectType": "minecraft:resistance",
+      "effectTarget": "self",
+      "effectDuration": 40,
+      "effectStrength": 1
+    }
+  ]
+}

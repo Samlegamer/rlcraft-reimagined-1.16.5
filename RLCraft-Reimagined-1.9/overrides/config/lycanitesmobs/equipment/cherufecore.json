@@ -1,0 +1,45 @@
+{
+  "itemName": "cherufecore",
+  "loadDefault": true,
+  "slotType": "jewel",
+  "dropMobId": "lycanitesmobs:cherufe",
+  "dropChance": 0.5,
+  "levelMin": 1,
+  "levelMax": 3,
+  "elements": [
+    "lava"
+  ],
+  "features": [
+    {
+      "featureType": "projectile",
+      "levelMax": 1,
+      "projectileName": "magma",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 200,
+      "count": 1,
+      "bonusDamage": 5
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 2,
+      "levelMax": 2,
+      "projectileName": "magma",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 100,
+      "count": 1,
+      "bonusDamage": 10
+    },
+    {
+      "featureType": "projectile",
+      "levelMin": 3,
+      "projectileName": "magma",
+      "projectileTrigger": "secondary",
+      "projectilePattern": "simple",
+      "cooldown": 50,
+      "count": 1,
+      "bonusDamage": 12
+    }
+  ]
+}
