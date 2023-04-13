@@ -1,0 +1,245 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "plains"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "forest"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "hills"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "mountain"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "sandy"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:taiga"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:old_growth_spruce_taiga"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:old_growth_pine_taiga"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      }
+    ]
+  ]
+}
